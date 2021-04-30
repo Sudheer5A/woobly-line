@@ -12,7 +12,7 @@ body {
 }
 svg {
   background-image: linear-gradient(rgba(70, 45, 45, 0.3), rgba(0, 0, 0, 0.8)),
-    url("/woobly-line/bg.jpg");
+    url("./bg.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
