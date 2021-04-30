@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+}
+svg {
+  background-image: linear-gradient(rgba(70, 45, 45, 0.3), rgba(0, 0, 0, 0.8)),
+    url("/woobly-line/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+h1 {
+  font-size: 5rem;
+  z-index: 3;
+  color: white;
+  pointer-events: none;
+}
+path {
+  background-color: white;
+  stroke: white;
+  fill: none;
+}
